@@ -122,6 +122,7 @@ main {
 
   .team {
     grid-template-columns: repeat(2, 50%);
+    grid-gap: 15px;
   }
 
   .team-id {
