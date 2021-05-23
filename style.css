@@ -67,8 +67,7 @@ main {
 }
 
 .photo-job img {
-  width: 238px;
-  height: 341px;
+  width: 220px;
 }
 
 .photo-job p {
@@ -81,7 +80,7 @@ main {
   font-size: 18px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
   .team {
     grid-template-columns: repeat(3, 33%);
     grid-gap: 15px 20px;
@@ -89,7 +88,6 @@ main {
 
   .photo-job img {
     width: 150px;
-    height: auto;
   }
 
   .team-id {
@@ -106,10 +104,6 @@ main {
   .content p {
     font-size: 20px;
     margin-top: 10px;
-  }
-
-  .team-id {
-    width: 175px;
   }
 
   .photo-job img {
